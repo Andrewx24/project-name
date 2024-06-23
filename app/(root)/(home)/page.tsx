@@ -1,0 +1,12 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className=" text-center text-5xl">
+
+      <h1> Home Page</h1>
+      <h2> Next JS we are coming </h2>
+      <p> This is the home page of the project</p>
+    </div>
+  );
+}
