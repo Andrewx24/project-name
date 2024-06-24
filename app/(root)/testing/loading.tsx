@@ -1,9 +1,14 @@
+import Navbar from '@/ui/componets/Navbar'
 import React from 'react'
 
-const loading = () => {
+const Loading = () => {
   return (
-    <div>loading</div>
+    <div>
+        <Navbar/>
+    <h1> This page is Loading</h1>
+
+    </div>
   )
 }
 
-export default loading
+export default Loading

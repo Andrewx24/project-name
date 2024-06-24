@@ -11,6 +11,12 @@ export default function Home() {
       <p> This is the home page of the project</p>
       <Search/>
       <Button />
+      <Image
+      src="/laptop.png"
+      alt="Picture of the author"
+      width={500}
+      height={500}
+      />
     </div>
   );
 }
