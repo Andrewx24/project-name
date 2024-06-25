@@ -1,14 +1,13 @@
-import Navbar from '@/ui/componets/Navbar'
-import React from 'react'
+import Testload from "@/ui/other/Testload"
 
-const Loading = () => {
-  return (
+
+export default function Loading() {
+    return( 
     <div>
-        <Navbar/>
-    <h1> This page is Loading</h1>
+    <Testload/>
+    
+    <h1> Hang tight !</h1>
 
-    </div>
-  )
-}
-
-export default Loading
+</div>
+    )
+ }

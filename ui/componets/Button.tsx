@@ -7,9 +7,9 @@ const Button = () => {
   return (
     <div>
 
-        <button  className='btn'   onClick={() => setCount(count + 1)}>Click me</button>
+        <button  className='btn'   onClick={() => setCount(count + 1)}>Increase</button>
         <p>Count: {count}</p>
-        <button className='btn' onClick={() => setCount(count - 1)}>Click me</button>
+        <button className='btn' onClick={() => setCount(count - 1)}>Decrease</button>
         </div>
   )
 }

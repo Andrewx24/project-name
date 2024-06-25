@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
 import Search from "./search";
 
-export default function Page() {
+export default  function async  Page() {
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
