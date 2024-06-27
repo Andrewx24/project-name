@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
 import Search from "./search";
 
-export default  function async  Page() {
+export default  function   Page() {
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
@@ -17,14 +17,12 @@ export default  function async  Page() {
 
     return (
         <main>
-            {showContent ? (
+            {showContent && (
                 <>
                     <p className={`text-center ${lusitana}`} style={{ fontSize: '48px' }}>Testing Page</p>
                     <Search />
                 </>
-            ) : (
-                <p className="text-center" style={{ fontSize: '48px' }}>Loading...</p>
-            )}
+            ) }
         </main>
     );
 }
