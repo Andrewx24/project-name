@@ -1,17 +1,20 @@
 'use client';
-import '@/styles/globals.css'
-import React, {useState} from 'react'
+import React, { useState } from 'react';
 
 const Button = () => {
     const [count, setCount] = useState(0);
-  return (
-    <div>
 
-        <button  className='btn'   onClick={() => setCount(count + 1)}>Increase</button>
-        <p>Count: {count}</p>
-        <button className='btn' onClick={() => setCount(count - 1)}>Decrease</button>
+    return (
+        <div>
+            <button className="btn" onClick={() => setCount(count + 1)}>
+                Increase
+            </button>
+            <p>Count: {count}</p>
+            <button className="btn" onClick={() => setCount(count - 1)}>
+                Decrease
+            </button>
         </div>
-  )
+    );
 }
 
-export default Button
+export default Button;

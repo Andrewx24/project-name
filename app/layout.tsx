@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import {inter} from '@/ui/fonts';
-import '@/styles/globals.css'
+import   '@/styles/globals.css'
 import Navbar from "@/ui/componets/Navbar";
 import Footer from "@/ui/componets/Footer";
 
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
   <body className={inter.className}>
-        <Navbar/>
+        <Navbar />
        
 
      {children} 

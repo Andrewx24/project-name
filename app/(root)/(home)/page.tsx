@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Search from "../testing/search";
 import Button from "@/ui/componets/Button";
-
+import Names from "@/ui/componets/Names";
 export default function Home() {
   return (
     <div className=" text-center text-5xl">
@@ -11,6 +11,7 @@ export default function Home() {
       <p> This is the home page of the project</p>
       <Search/>
       <Button />
+      <Names name="John"/>
       <Image
       src="/laptop.png"
       alt="Picture of the author"
