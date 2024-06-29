@@ -1,28 +1,30 @@
-'use client';
+"use client";
 import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
-import Search from "./search";
+import Search from "../../../ui/componets/search";
 
-export default  function   Page() {
-    const [showContent, setShowContent] = useState(false);
+export default function Page() {
+  const [showContent, setShowContent] = useState(false);
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setShowContent(true);
-        }, 5000);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true);
+    }, 5000);
 
-        // Cleanup the timer if the component is unmounted
-        return () => clearTimeout(timer);
-    }, []);
+    // Cleanup the timer if the component is unmounted
+    return () => clearTimeout(timer);
+  }, []);
 
-    return (
-        <main>
-            {showContent && (
-                <>
-                    <p className={`text-center ${lusitana}`} style={{ fontSize: '48px' }}>Testing Page</p>
-                    <Search />
-                </>
-            ) }
-        </main>
-    );
+  return (
+    <main>
+      {showContent && (
+        <>
+          <p className={`text-center ${lusitana}`} style={{ fontSize: "48px" }}>
+            Testing Page
+          </p>
+          <Search />
+        </>
+      )}
+    </main>
+  );
 }
