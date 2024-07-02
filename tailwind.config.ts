@@ -10,11 +10,13 @@ const config: Config = {
     "./ui/componets/**/*.{js,ts,jsx,tsx,mdx}",
 
   ],
+  
   theme: {
     extend: {
       colors:{
        'main': '#efefef',
-       'secondary':'#f5f5f5'
+       'secondary':'#f5f5f5',
+       'dark': '#0a0a0a'
 
         
       }, 
