@@ -1,14 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import { Lusitana } from 'next/font/google';
+import { lusitana } from '@/ui/fonts';
+import Image from 'next/image';
 
-const lusitana = Lusitana({ subsets: ['latin'], weight: '700' });
-
+ 
 const Navbar = () => {
   return (
     <nav className={`bg-gray-800 p-4 shadow-md ${lusitana.className}`}>
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex  justify-between items-center">
         <div className="text-white text-lg">
+          <Link href="/">
+          <Image src="/logo.png" alt="logo" width={50} height={50} />
+          </Link>
           <Link href="/" className="mx-4 hover:text-blue-500 transition-colors duration-300">
             Home
           </Link>
