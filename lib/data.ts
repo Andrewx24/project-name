@@ -22,4 +22,5 @@ const person2:PersonType = {
     age : 23 
 }
 
+
  export default a;

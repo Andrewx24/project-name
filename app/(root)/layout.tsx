@@ -1,7 +1,6 @@
 import Footer from "@/ui/componets/Footer";
 
 
-
 export default function RootLayout({
     children,
   }: Readonly<{
@@ -12,7 +11,7 @@ export default function RootLayout({
         <body>
             
             {children}
-            <Footer/>
+         <Footer/>
             </body>
       </html>
     );

@@ -14,9 +14,9 @@ const Form = () => {
       alert('Please fill out all fields');
     }
   }
-
+  
   return (
-    <div>
+    
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="name" />
@@ -26,7 +26,7 @@ const Form = () => {
         <textarea id="message" name="message"></textarea>
         <button type="submit">Submit</button>
       </form>
-    </div>
+    
   )
 }
 

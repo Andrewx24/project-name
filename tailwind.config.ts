@@ -10,16 +10,16 @@ const config: Config = {
     "./ui/componets/**/*.{js,ts,jsx,tsx,mdx}",
 
   ],
-  
+ darkMode: 'class',
   theme: {
+    
     extend: {
       colors:{
        'main': '#efefef',
        'secondary':'#f5f5f5',
        'dark': '#0a0a0a'
 
-        
-      }, 
+}, 
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -1,12 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
-import { Lusitana } from 'next/font/google';
 
-const lusitana = Lusitana({ subsets: ['latin'], weight: '700' });
 
 const Footer = () => {
   return (
-    <footer className={`bg-gray-800 p-4 shadow-inner ${lusitana.className}`}>
+    <footer className={`bg-gray-800 p-4 shadow-inner `}>
       <div className="container mx-auto flex justify-between items-center text-white">
         <div className="text-lg">
           &copy; 2024 My Website
