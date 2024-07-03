@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Navbar = () => {
   return (
     <nav className={`bg-gray-800 p-4 shadow-md ${lusitana.className}`}>
-      <div className="container mx-auto flex  justify-between items-center">
+      <div className="container mx-auto flex  justify-normal items-center">
         <div className="text-white text-lg">
           <Link href="/">
           <Image src="/logo.png" alt="logo" width={50} height={50} />

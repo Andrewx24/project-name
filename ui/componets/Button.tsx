@@ -4,13 +4,7 @@ import React, { useState } from 'react';
 const Button = () => {
     const [count, setCount] = useState(0);
 
-    function counting() {
-        if (count === 5) {
-            return alert('You have reached the maximum count');
-        } else {
-            return count;
-        }
-    }
+    
 
     return (
         <div>
