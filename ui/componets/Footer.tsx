@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -11,14 +11,9 @@ const Footer = () => {
         </div>
         <div className="flex space-x-4">
           <Link href="/" className="hover:text-blue-500 transition-colors duration-300">
-            Home
+            <Image src="/logo.png" alt="logo" width={50} height={50} />
           </Link>
-          <Link href="/about" className="hover:text-blue-500 transition-colors duration-300">
-            About
-          </Link>
-          <Link href="/contact" className="hover:text-blue-500 transition-colors duration-300">
-            Contact
-          </Link>
+        
         </div>
       </div>
     </footer>
