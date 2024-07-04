@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Search from "../../../ui/componets/search";
+
 import Button from "@/ui/componets/Button";
 import Names from "@/ui/componets/Names";
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <h1> Home Page</h1>
       <h2> Next JS we are coming </h2>
       <p> This is the home page of the project</p>
-      <Search />
+  
       <Button />
       <Names name="John" />
       <Image

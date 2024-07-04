@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
-import Search from "../../../ui/componets/search";
+import Search from "../../../ui/componets/Search";
 import Newforms from "@/ui/componets/Newforms";
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
           <p className={`text-center ${lusitana}`} style={{ fontSize: "48px" }}>
             Testing Page
           </p>
-        <Newforms/>
+          <Newforms />
           <Search />
         </>
       )}
