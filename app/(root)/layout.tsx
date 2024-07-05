@@ -1,4 +1,4 @@
-import Footer from "@/ui/componets/Footer";
+
 
 
 export default function RootLayout({
@@ -9,9 +9,9 @@ export default function RootLayout({
     return (
       <html lang="en">
         <body>
-            
+           
             {children}
-         <Footer/>
+         
             </body>
       </html>
     );
