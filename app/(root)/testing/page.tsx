@@ -1,8 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
-
-import Newforms from "@/ui/componets/Newforms";
+import Newforms from "@/ui/components/Newforms";
 
 export default function Page() {
   const [showContent, setShowContent] = useState(false);
@@ -18,14 +17,17 @@ export default function Page() {
 
   return (
     <main>
-      {showContent && (
+      {showContent ? (
         <>
           <p className={`text-center ${lusitana}`} style={{ fontSize: "48px" }}>
             Testing Page
           </p>
           <Newforms />
-         
         </>
+      ) : (
+        <div>
+          <h1>Hang tight!</h1>
+        </div>
       )}
     </main>
   );
