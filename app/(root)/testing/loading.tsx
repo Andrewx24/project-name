@@ -1,13 +1,15 @@
-import Testload from "@/ui/other/Testload"
+
 
 
 export default function Loading() {
     return( 
-    <div>
-    <Testload/>
-    
-    <h1> Hang tight !</h1>
+   <main className=" h-full w-full">
 
-</div>
+    <h1>
+          This page is Loading..... Please Wait !
+    </h1>
+   </main>
+
+
     )
  }
