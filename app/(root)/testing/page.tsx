@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { lusitana } from "@/ui/fonts";
-import Newforms from "@/ui/components/Newforms";
+import Newforms from "@/ui/componets/Newforms";
 
 export default function Page() {
   const [showContent, setShowContent] = useState(false);

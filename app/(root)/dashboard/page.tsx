@@ -1,19 +1,18 @@
 import React from "react";
-
 import { open_sans } from "@/ui/fonts";
 import a from "@/lib/data";
 import Form from "@/ui/componets/Form";
 import Image from "next/image";
-const page = () => {
-  function Alert() {
-    alert("Hello World");
-  }
+
+const Page = () => {
+
   return (
     <main className="text-center">
-      <h1 className={`text-center text-5xl ${open_sans}`}> Dashboard Page </h1>
-     
-      <h1> {a} </h1>
-      <button className="btn"> click me</button>
+      <h1 className={`text-center text-5xl ${open_sans}`}>Dashboard Page</h1>
+      <h1>{a}</h1>
+      <button className="btn">
+        Click Me
+      </button>
       <Form />
       <Image
         src="/assets/chip.jpg"
@@ -25,4 +24,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
