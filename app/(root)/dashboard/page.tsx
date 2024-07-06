@@ -3,6 +3,7 @@ import { open_sans } from "@/ui/fonts";
 import a from "@/lib/data";
 import Form from "@/ui/componets/Form";
 import Image from "next/image";
+import Newbutton from "@/ui/componets/Newbutton";
 
 const Page = () => {
 
@@ -13,6 +14,7 @@ const Page = () => {
       <button className="btn">
         Click Me
       </button>
+      <Newbutton/>
       <Form />
       <Image
         src="/assets/chip.jpg"
